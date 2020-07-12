@@ -1,0 +1,506 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    /*background-color: #161619;; jessica barboza*/
+    background-color: white;
+    height: 150px;
+    position: relative;
+}
+
+.logo{
+    padding-top: 10px;
+}
+
+.lenguage{
+    position: absolute;
+    bottom: 50%;
+    left: 95%;
+}
+
+.lenguage img{
+    height: 40px;
+    width: 40px;
+}
+
+.logo h1{
+    font-family: 'Antic Didone', serif;
+    color: #161619;
+    text-align: center;
+    font-size: 40PX;
+    font-weight: 400;
+}
+
+.menubar{
+    align-self: center;
+    align-items: center;
+}
+
+.menubar li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menubar ul li a{
+    font-family: 'Raleway', sans-serif;
+    color: #161619;
+}
+
+.menubar ul li a:hover{
+    color: tomato;
+}
+
+.boxme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    background-color: #161619;
+    height: 76vh;
+    }
+
+.boxme img {
+    justify-content:  flex-start;
+    height: 76vh;
+    width: 58vh;
+    order: 0;
+    flex: 0 1 auto;
+    }
+
+.boxuno {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    background-color: #161619;
+    padding: 25px;
+    margin: 5px;
+    /*padding-right: 25px;  */ 
+ }
+
+.boxuno h1{
+    font-family: 'Antic Didone', serif;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+.boxuno h3{
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+}
+
+.boxuno p{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: larger;
+    padding: 15px;
+}
+
+.minicajas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.rowtitulo{
+    padding: 10px;
+}
+
+.rowtitulo h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: grey;
+}
+
+.rowtitulo h2:hover{
+    color: gray;
+}
+
+.box{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 10px;
+}
+
+.box h3{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.box p{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.box img{
+    height: 70px;
+    width: 90px;
+    border-radius: 50px;
+}
+
+.boxskills{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+}
+
+.boxskills li{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+footer{
+	background: purple;
+	height: 30vh;
+	padding-top: 30px;
+}
+
+.containercon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.boxcontacto h2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.conicon{
+    padding: 10px;
+}
+
+.conicon img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.conicon p{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: black;
+}
+
+
+/* ----------------- GUIDO ------------------
+
+* {padding: 0;
+    margin: 0;
+
+}
+.contain{
+display: flex;
+flex-flow: column nowrap;
+
+}
+header{
+background-color: cadetblue; 
+display: flex;
+flex-flow: column wrap;
+text-align: right; 
+
+}
+nav{
+background-color: #ddf516;
+flex: 1 1 auto;
+display: flex;
+align-items: center;
+text-align: center;
+font-family: 'Teko', sans-serif; 
+
+
+}
+
+
+h1{
+display: flex; 
+flex: 1 1 auto;
+background-color: #ddf516;
+text-align: center;
+font-family: 'Staatliches', cursive;
+color: midnightblue;
+font-size: 75px;
+justify-content: center;
+}
+
+
+
+nav ul{
+display: flex;
+flex-flow: row wrap;
+justify-content: center; 
+width: 100%;
+
+}
+nav ul{
+flex: 1 1 auto;
+list-style: none;
+
+
+}
+nav ul a{
+display: block;
+text-decoration: none;
+color: midnightblue;
+font-weight: bold;
+font-size: 35px; 
+padding: 20px;
+
+
+}
+nav ul a:hover{
+background: white;
+}
+
+
+#fichas{
+color:#ddf516;
+font-weight: bold;
+text-align: center; 
+font-size: 50px;
+background: black;
+
+
+}
+
+body{
+font-family: 'Nunito', sans-serif;
+background-color: rgb(4, 4, 34);
+padding: 20px;
+margin: 20px;
+background-image: url(https://estaticos.elperiodico.com/resources/jpg/5/0/valentino-rossi-yamaha-test-hoy-catar-1551048450505.jpg)
+}
+body p{
+font-family: 'Roboto', sans-serif;
+color: white;
+text-anchor: middle;
+
+}
+
+
+
+h2{
+color: #ddf516;
+}
+
+
+
+
+
+section{
+display: flex;
+flex-flow: column wrap;
+background-color: #ddf516;
+border: solid;
+justify-content: center;
+
+}
+.articulos {
+flex: 1 1 auto;
+
+
+}
+
+aside{ 
+background-color: lightslategray;
+border: ridge; 
+text-align: center; 
+
+}
+*/
+
+
+/************************************************
+
+
+body{
+	background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.logo{
+	width: 40px;
+}
+
+.menubar li{
+	display: inline-block;
+	margin-left: 8px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.menubar li a{
+	color: #666;
+
+}
+.menubar li a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+header{
+	background: white; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 34242;
+}
+
+.principal{
+	background: red;
+	height: 90vh;
+	background: url(../images/23926343_1661500030582540_5469621639768249700_o.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.vertical-centered-text {
+  -ms-display: flex;
+  display: flex;
+  /* alineacion vertical 
+  align-items: center;
+   /* alineacion horizontal 
+  justify-content: center;
+}
+
+.cta{
+	text-align: center;
+}
+h1{
+	font-weight: 700;
+	font-size: 50px;
+	color: rgba(255,255,255,.7);
+}
+
+.orange{
+
+	background: #FF00FF;
+}
+
+.quiensoy{
+	width: 100%;
+	height: 50vh;
+	text-align: center;
+	padding-top: 150px;
+}
+.quiesoy h1{
+	font-weight: 100;
+}
+.proyectos{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+.proyectos img{
+	width: 40%;
+	text-align: center;
+}
+
+.proyectos h1{
+	color: #666;
+	font-weight: 100;
+}
+.proyectos .images{
+	padding-top: 30px;
+}
+
+.images .col-md-3{
+	padding-top: 20px;
+
+}
+.social{
+	text-align: center;
+}
+.social img{
+	width: 30%;
+	text-align: center;
+}
+
+footer{
+	background: #757575;
+	height: 50vh;
+	padding-top: 30px;
+}
+footer h1{
+	text-align: center;
+	font-weight: 100;
+}
+
+#home {
+	color: white;
+}
+.col-xs-4{
+	text-align: center;
+}
+
+
+/*@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { }
+@media only screen and (min-width: 324px) and (max-width: 736px) {
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+  /* iPhone only */
+  /* Styles 
+  .off {
+    display: none !important;
+  }
+  .on {
+    display: block !important;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .social img{
+  	width: 100%;
+  }
+  .menubar li a {
+    font-size: 13px;
+}
+.quiensoy{
+	height: 400px;
+	overflow: hidden;
+	padding-top: 15px;
+}
+#home{
+	padding-top: 65px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+footer{
+	padding-top: 10px;
+}
+
+}*/
